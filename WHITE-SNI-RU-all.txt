@@ -1,9 +1,16 @@
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # profile-update-interval: 5
-# Date/Time: 2026-03-23 / 22:26 (Moscow)
-# Количество: 3
+# Date/Time: 2026-03-24 / 00:04 (Moscow)
+# Количество: 10
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
 vless://110d7bad-5e17-4ce3-afd0-2cf2ebc71787@am.zqwerty.ru:2053?type=xhttp&security=reality&fp=&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&sid=0858af97f4e7324d&sni=music.yandex.ru&path=&host=&mode=packet-up&extra={"xmux":{"cMaxReuseTimes":0,"maxConcurrency":"5-8","maxConnections":0,"hKeepAlivePeriod":0,"hMaxRequestTimes":"600-900","hMaxReusableSecs":"1800-3000"}}#%F0%9F%87%A6%F0%9F%87%B2%20Armenia%20%5BSNI-RU%5D%20music.yandex.ru
 vless://9cdfecbf-f470-4928-981c-44d9cc21df3c@ee.trustnet.sbs:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&security=reality&pbk=ThK5XZ34BgaKYFlstl-LPWepa_ZdCx3xGkvST8o9_Aw&sid=d29ff3d2466adf1f&packetEncoding=xudp#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%5BSNI-RU%5D%20ads.x5.ru
+vless://110d7bad-5e17-4ce3-afd0-2cf2ebc71787@ee3.zqwerty.ru:2053?type=tcp&security=reality&fp=chrome&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&sid=0858af97f4e7324d&sni=music.yandex.ru&path=&host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%5BSNI-RU%5D%20music.yandex.ru
+vless://d5a80c21-304f-5414-bfc3-bee908d0824a@de.farkil.shop:8443?type=xhttp&security=reality&fp=chrome&pbk=_lZginSKes-akVMyp5tFJEARAvbjkVf3PuAfkCuI92U&sid=80dfa2b1&sni=ads.x5.ru&path=/xhttp&mode=stream-one&concurrency=4#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20ads.x5.ru
+vless://68affc2b-be75-4c34-828c-b968ddd92e6c@45.129.140.86:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=stats.vk-portal.net&pbk=e04qlMREgpP2TmLJ0kzf4tYjnuBMT87k0RuQebPe2Bg&sid=6ba85179e30d4fc2#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20stats.vk-portal.net
+vless://f7b19108-cb70-4b81-ada4-aabda9b0c83e@45.129.140.86:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=stats.vk-portal.net&pbk=e04qlMREgpP2TmLJ0kzf4tYjnuBMT87k0RuQebPe2Bg&sid=6ba85179e30d4fc2#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20stats.vk-portal.net
+vless://mega2499@5.129.249.134:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ir.ozone.ru&fp=chrome&security=reality&pbk=F14RpPKCKo_qPcW7EFVu1M18JsAT8c04O08cIi0Ghg4&sid=ab1cd2#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%5BSNI-RU%5D%20ir.ozone.ru
 vless://25e0d2c4-2868-43b7-8413-51586ba2cf23@gdfgf4.ddns.net:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Yg7Z6U4aNdnMP1zoh7vOE718ZzwO_13MwyZVBkZGASc&sid=0a7a701603b81860&sni=yandex.ru#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5BSNI-RU%5D%20yandex.ru
+vless://35b5accb-6830-4b99-a041-929de8714a3e@89.superbuba.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=m.vk.ru&fp=random&pbk=AILje-JQmKcUK0n5YuduzNLCleJEog8RAYn9KkPn3G8&sid=d5a853173b23a306&packetEncoding=xudp#%F0%9F%8C%90%20Anycast-IP%20%5BSNI-RU%5D%20m.vk.ru
+trojan://kkzh2prsyr2ik47as615@64.94.95.117:57142?security=tls&sni=static.rutube.ru&allowInsecure=true#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%5BSNI-RU%5D%20static.rutube.ru
