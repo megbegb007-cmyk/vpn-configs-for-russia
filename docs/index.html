@@ -1,1 +1,247 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WHITE CIDR RU ALL — Yandex-safe wrapper</title>
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121931;
+      --panel-2: #182244;
+      --text: #e7ecff;
+      --muted: #aab7e8;
+      --accent: #7aa2ff;
+      --border: rgba(255,255,255,.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, #0a1020 0%, #111936 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .card {
+      background: rgba(18,25,49,.92);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      margin-bottom: 18px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 14px 40px rgba(0,0,0,.28);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    p { margin: 0 0 10px; color: var(--muted); }
+    .note {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .cfg-list {
+      margin: 0;
+      padding-left: 22px;
+    }
+    .cfg-list li {
+      margin: 10px 0;
+      padding: 10px 12px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    .cfg-link {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      word-break: break-word;
+    }
+    .cfg-link:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    .copy-btn {
+      margin-left: 10px;
+      padding: 7px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel-2);
+      color: var(--text);
+      cursor: pointer;
+    }
+    .copy-btn:hover {
+      background: #21305f;
+    }
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .toolbar button {
+      padding: 9px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel-2);
+      color: var(--text);
+      cursor: pointer;
+    }
+    textarea {
+      width: 100%;
+      min-height: 360px;
+      resize: vertical;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: #0e1530;
+      color: var(--text);
+      padding: 14px;
+      font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      white-space: pre;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: rgba(255,255,255,.06);
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>WHITE CIDR RU ALL</h1>
+      <p>HTML-обёртка <code>translate="no"</code>.</p>
+      <p>HTML-Wrapper <code>translate="no"</code>.</p>
+      <p class="note">Github</p>
+    </section>
+
+    <section class="card" translate="no">
+      <h2>Clickable VLESS links</h2>
+      <p class="note">Нажатие на ссылку может открыть клиент, если схема <code>vless://</code> зарегистрирована в системе.</p>
+      <ol class="cfg-list">
+        <li>
+      <a translate="no" class="cfg-link" href="vless://3d535e29-2383-4272-bee7-ae7b5a4b112f@176.122.25.50:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=eh.vk.ru&amp;pbk=zwxb4S-XaRk54UpQmRoeA9VzK97kKLPaMEPVeQwG5zs&amp;sid=941772dbbe16&amp;spx=#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%5B%2ACIDR%5D">🇧🇪 Belgium [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://3d535e29-2383-4272-bee7-ae7b5a4b112f@176.122.25.50:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=eh.vk.ru&amp;pbk=zwxb4S-XaRk54UpQmRoeA9VzK97kKLPaMEPVeQwG5zs&amp;sid=941772dbbe16&amp;spx=#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://b9dd5847-412a-4957-bc79-c097037fd7b9@147.45.116.165:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=qq&amp;sni=store.steampowered.com&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;sid=d7e1a2bb&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D">🇧🇷 Brazil [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://b9dd5847-412a-4957-bc79-c097037fd7b9@147.45.116.165:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=qq&amp;sni=store.steampowered.com&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;sid=d7e1a2bb&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://b9dd5847-412a-4957-bc79-c097037fd7b9@br0.mambo-jambo.ru:443?security=reality&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=store.steampowered.com&amp;fp=qq&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;spx=%2F&amp;sid=d7e1a2bb#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D">🇧🇷 Brazil [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://b9dd5847-412a-4957-bc79-c097037fd7b9@br0.mambo-jambo.ru:443?security=reality&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=store.steampowered.com&amp;fp=qq&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;spx=%2F&amp;sid=d7e1a2bb#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://9c7cf5a2-474c-466c-8063-4ca25afcf9d5@77.110.113.34:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=ssd.fasssst.ru&amp;pbk=S_--Qvg_N5BEwBjQ0Tp3ncvIo1FkYEN_dE2eckR83xc&amp;sid=c0bb9d12e0&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇧🇬 Bulgaria | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://9c7cf5a2-474c-466c-8063-4ca25afcf9d5@77.110.113.34:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=ssd.fasssst.ru&amp;pbk=S_--Qvg_N5BEwBjQ0Tp3ncvIo1FkYEN_dE2eckR83xc&amp;sid=c0bb9d12e0&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://2402d74e-dbad-4ce3-9c0b-9202714715dc@as-ee4.agveit.pro:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=chrome&amp;pbk=wTc6YHz_dy8sk5Dif0pVi-9-qK1GHKZHg0ToEP23WiI&amp;sid=c6600c6886cb2e13&amp;sni=as-ee4.agveit.pro&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://2402d74e-dbad-4ce3-9c0b-9202714715dc@as-ee4.agveit.pro:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=chrome&amp;pbk=wTc6YHz_dy8sk5Dif0pVi-9-qK1GHKZHg0ToEP23WiI&amp;sid=c6600c6886cb2e13&amp;sni=as-ee4.agveit.pro&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://4dde0df3-aa67-417c-882e-28beb3886961@et.pinkweb.one:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=et.pinkweb.one&amp;fp=chrome&amp;security=reality&amp;pbk=sQrrYcu1AnXynaMenZCMT7yZsGRVYxjJMpN2uIuN9RA&amp;sid=fd0aaf7dd2c22362#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://4dde0df3-aa67-417c-882e-28beb3886961@et.pinkweb.one:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=et.pinkweb.one&amp;fp=chrome&amp;security=reality&amp;pbk=sQrrYcu1AnXynaMenZCMT7yZsGRVYxjJMpN2uIuN9RA&amp;sid=fd0aaf7dd2c22362#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?encryption=none&amp;type=grpc&amp;security=reality&amp;mode=gun&amp;fp=random&amp;sni=images.apple.com&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?encryption=none&amp;type=grpc&amp;security=reality&amp;mode=gun&amp;fp=random&amp;sni=images.apple.com&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?type=grpc&amp;security=reality&amp;fp=random&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI&amp;sid=&amp;sni=images.apple.com&amp;mode=gun&amp;serviceName=&amp;authority=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?type=grpc&amp;security=reality&amp;fp=random&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI&amp;sid=&amp;sni=images.apple.com&amp;mode=gun&amp;serviceName=&amp;authority=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=qq&amp;pbk=UCmQ5sEllNzTGRqKHoWoreedDaLypKB-qpaIPBGvAHI&amp;sid=&amp;sni=images.apple.com&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=qq&amp;pbk=UCmQ5sEllNzTGRqKHoWoreedDaLypKB-qpaIPBGvAHI&amp;sid=&amp;sni=images.apple.com&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://bc019623-ecae-4ee0-8826-6e96f6942263@93.123.39.222:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=estonia1.labburo.su&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://bc019623-ecae-4ee0-8826-6e96f6942263@93.123.39.222:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=estonia1.labburo.su&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://bc019623-ecae-4ee0-8826-6e96f6942263@estonia1.labburo.su:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c&amp;sni=estonia1.labburo.su&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">🇪🇪 Estonia | 🌐 | [IPv6] [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://bc019623-ecae-4ee0-8826-6e96f6942263@estonia1.labburo.su:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c&amp;sni=estonia1.labburo.su&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://0cfb8127-873d-46ca-9f31-f7918cdaaf11@xfer.mos-drywall.shop:443?type=xhttp&amp;security=reality&amp;fp=&amp;pbk=bPRyJNdN6kxTypxr65RjpadXexY5fztAecykcC-NrTM&amp;sid=6a2f3e&amp;sni=xfer.mos-drywall.shop&amp;path=/devxhttp/&amp;host=&amp;mode=packet-up#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">🇫🇮 Finland [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://0cfb8127-873d-46ca-9f31-f7918cdaaf11@xfer.mos-drywall.shop:443?type=xhttp&amp;security=reality&amp;fp=&amp;pbk=bPRyJNdN6kxTypxr65RjpadXexY5fztAecykcC-NrTM&amp;sid=6a2f3e&amp;sni=xfer.mos-drywall.shop&amp;path=/devxhttp/&amp;host=&amp;mode=packet-up#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=7fe9fc650bec9da2#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">🇫🇮 Finland [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=7fe9fc650bec9da2#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=e2f9c6bd2bf40b75#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">🇫🇮 Finland [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=e2f9c6bd2bf40b75#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">Copy</button>
+    </li><li>
+      <a translate="no" class="cfg-link" href="vless://7d714031-76a9-4500-a132-27dd3307b16e@85.192.49.182:443?encryption=none&amp;type=tcp&amp;security=tls&amp;sni=kinofi23.boevik-tut.org#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">🇫🇮 Finland [*CIDR]</a>
+      <button type="button" class="copy-btn" data-config="vless://7d714031-76a9-4500-a132-27dd3307b16e@85.192.49.182:443?encryption=none&amp;type=tcp&amp;security=tls&amp;sni=kinofi23.boevik-tut.org#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D">Copy</button>
+    </li>
+      </ol>
+    </section>
+
+    <section class="card" translate="no">
+      <h2>Raw config block</h2>
+      <div class="toolbar">
+        <button type="button" id="copyAllBtn">Copy all configs</button>
+        <button type="button" id="selectAllBtn">Select all</button>
+      </div>
+      <textarea id="configs" readonly>vless://3d535e29-2383-4272-bee7-ae7b5a4b112f@176.122.25.50:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=eh.vk.ru&amp;pbk=zwxb4S-XaRk54UpQmRoeA9VzK97kKLPaMEPVeQwG5zs&amp;sid=941772dbbe16&amp;spx=#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%5B%2ACIDR%5D
+vless://b9dd5847-412a-4957-bc79-c097037fd7b9@147.45.116.165:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=qq&amp;sni=store.steampowered.com&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;sid=d7e1a2bb&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D
+vless://b9dd5847-412a-4957-bc79-c097037fd7b9@br0.mambo-jambo.ru:443?security=reality&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=store.steampowered.com&amp;fp=qq&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;spx=%2F&amp;sid=d7e1a2bb#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D
+vless://9c7cf5a2-474c-466c-8063-4ca25afcf9d5@77.110.113.34:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=ssd.fasssst.ru&amp;pbk=S_--Qvg_N5BEwBjQ0Tp3ncvIo1FkYEN_dE2eckR83xc&amp;sid=c0bb9d12e0&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://2402d74e-dbad-4ce3-9c0b-9202714715dc@as-ee4.agveit.pro:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=chrome&amp;pbk=wTc6YHz_dy8sk5Dif0pVi-9-qK1GHKZHg0ToEP23WiI&amp;sid=c6600c6886cb2e13&amp;sni=as-ee4.agveit.pro&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://4dde0df3-aa67-417c-882e-28beb3886961@et.pinkweb.one:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=et.pinkweb.one&amp;fp=chrome&amp;security=reality&amp;pbk=sQrrYcu1AnXynaMenZCMT7yZsGRVYxjJMpN2uIuN9RA&amp;sid=fd0aaf7dd2c22362#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?encryption=none&amp;type=grpc&amp;security=reality&amp;mode=gun&amp;fp=random&amp;sni=images.apple.com&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?type=grpc&amp;security=reality&amp;fp=random&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI&amp;sid=&amp;sni=images.apple.com&amp;mode=gun&amp;serviceName=&amp;authority=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=qq&amp;pbk=UCmQ5sEllNzTGRqKHoWoreedDaLypKB-qpaIPBGvAHI&amp;sid=&amp;sni=images.apple.com&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://bc019623-ecae-4ee0-8826-6e96f6942263@93.123.39.222:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=estonia1.labburo.su&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://bc019623-ecae-4ee0-8826-6e96f6942263@estonia1.labburo.su:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c&amp;sni=estonia1.labburo.su&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://0cfb8127-873d-46ca-9f31-f7918cdaaf11@xfer.mos-drywall.shop:443?type=xhttp&amp;security=reality&amp;fp=&amp;pbk=bPRyJNdN6kxTypxr65RjpadXexY5fztAecykcC-NrTM&amp;sid=6a2f3e&amp;sni=xfer.mos-drywall.shop&amp;path=/devxhttp/&amp;host=&amp;mode=packet-up#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=7fe9fc650bec9da2#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=e2f9c6bd2bf40b75#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://7d714031-76a9-4500-a132-27dd3307b16e@85.192.49.182:443?encryption=none&amp;type=tcp&amp;security=tls&amp;sni=kinofi23.boevik-tut.org#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D</textarea>
+    </section>
+  </div>
+
+  <script>
+    const ta = document.getElementById('configs');
+    document.getElementById('copyAllBtn').addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(ta.value);
+        alert('All configs copied');
+      } catch (e) {
+        ta.focus();
+        ta.select();
+        document.execCommand('copy');
+      }
+    });
+    document.getElementById('selectAllBtn').addEventListener('click', () => {
+      ta.focus();
+      ta.select();
+    });
+    document.querySelectorAll('.copy-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const cfg = btn.getAttribute('data-config');
+        try {
+          await navigator.clipboard.writeText(cfg);
+          btn.textContent = 'Copied';
+          setTimeout(() => btn.textContent = 'Copy', 1200);
+        } catch (e) {
+          ta.value = cfg;
+          ta.focus();
+          ta.select();
+          document.execCommand('copy');
+          ta.value = `vless://3d535e29-2383-4272-bee7-ae7b5a4b112f@176.122.25.50:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=eh.vk.ru&amp;pbk=zwxb4S-XaRk54UpQmRoeA9VzK97kKLPaMEPVeQwG5zs&amp;sid=941772dbbe16&amp;spx=#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%20%5B%2ACIDR%5D
+vless://b9dd5847-412a-4957-bc79-c097037fd7b9@147.45.116.165:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=qq&amp;sni=store.steampowered.com&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;sid=d7e1a2bb&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D
+vless://b9dd5847-412a-4957-bc79-c097037fd7b9@br0.mambo-jambo.ru:443?security=reality&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=store.steampowered.com&amp;fp=qq&amp;pbk=DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM&amp;spx=%2F&amp;sid=d7e1a2bb#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20%5B%2ACIDR%5D
+vless://9c7cf5a2-474c-466c-8063-4ca25afcf9d5@77.110.113.34:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;fp=chrome&amp;sni=ssd.fasssst.ru&amp;pbk=S_--Qvg_N5BEwBjQ0Tp3ncvIo1FkYEN_dE2eckR83xc&amp;sid=c0bb9d12e0&amp;spx=%2F#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://2402d74e-dbad-4ce3-9c0b-9202714715dc@as-ee4.agveit.pro:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=chrome&amp;pbk=wTc6YHz_dy8sk5Dif0pVi-9-qK1GHKZHg0ToEP23WiI&amp;sid=c6600c6886cb2e13&amp;sni=as-ee4.agveit.pro&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://4dde0df3-aa67-417c-882e-28beb3886961@et.pinkweb.one:443/?type=tcp&amp;encryption=none&amp;flow=xtls-rprx-vision&amp;sni=et.pinkweb.one&amp;fp=chrome&amp;security=reality&amp;pbk=sQrrYcu1AnXynaMenZCMT7yZsGRVYxjJMpN2uIuN9RA&amp;sid=fd0aaf7dd2c22362#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?encryption=none&amp;type=grpc&amp;security=reality&amp;mode=gun&amp;fp=random&amp;sni=images.apple.com&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:2053?type=grpc&amp;security=reality&amp;fp=random&amp;pbk=5DrNWT7Q8J_9XU8XJjJV0S9KF6OIM3cdg7MWsE9f-EI&amp;sid=&amp;sni=images.apple.com&amp;mode=gun&amp;serviceName=&amp;authority=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://7d40449f-92df-4256-9607-679241455d49@95.85.243.114:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=qq&amp;pbk=UCmQ5sEllNzTGRqKHoWoreedDaLypKB-qpaIPBGvAHI&amp;sid=&amp;sni=images.apple.com&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://bc019623-ecae-4ee0-8826-6e96f6942263@93.123.39.222:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=estonia1.labburo.su&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://bc019623-ecae-4ee0-8826-6e96f6942263@estonia1.labburo.su:443?type=tcp&amp;security=reality&amp;flow=xtls-rprx-vision&amp;fp=&amp;pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&amp;sid=3c7dbf0e7bd3d03c&amp;sni=estonia1.labburo.su&amp;path=&amp;host=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5B%2ACIDR%5D
+vless://0cfb8127-873d-46ca-9f31-f7918cdaaf11@xfer.mos-drywall.shop:443?type=xhttp&amp;security=reality&amp;fp=&amp;pbk=bPRyJNdN6kxTypxr65RjpadXexY5fztAecykcC-NrTM&amp;sid=6a2f3e&amp;sni=xfer.mos-drywall.shop&amp;path=/devxhttp/&amp;host=&amp;mode=packet-up#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=7fe9fc650bec9da2#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://4b35808a-101d-4cea-88d2-e1814afe72db@81.200.151.133:443?flow=xtls-rprx-vision&amp;encryption=none&amp;type=tcp&amp;security=reality&amp;sni=wl-3.legendary-vpn.com&amp;pbk=zt-1mmsWJ0eVnHM0yYvATGtobe7-NvGPf0bG1qpEmwI&amp;sid=e2f9c6bd2bf40b75#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D
+vless://7d714031-76a9-4500-a132-27dd3307b16e@85.192.49.182:443?encryption=none&amp;type=tcp&amp;security=tls&amp;sni=kinofi23.boevik-tut.org#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%5B%2ACIDR%5D`;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
 
