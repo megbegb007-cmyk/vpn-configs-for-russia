@@ -1,24 +1,10 @@
 # profile-title: 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | VLESS
 # profile-update-interval: 5
-# Date/Time: 2026-03-30 / 20:07 (Moscow)
-# Количество: 18
+# Date/Time: 2026-03-30 / 21:43 (Moscow)
+# Количество: 4
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
-vless://75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6@s5.db-link.in:14351?type=ws&encryption=none&host=199745db08.shopify.com&path=%2Fdb1024199745db08&headerType=none&quicSecurity=none&serviceName=&security=tls&flow=&fp=chrome&insecure=1&sni=199745db08.shopify.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
-vless://1bc84ad0-0c82-4d08-bea2-ec16de523c0e@itsea.osaip.net:443?type=grpc&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=violet&security=tls&fp=chrome&insecure=0&sni=#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%5BBL%5D
-vless://383e12ae-f722-49d3-ab9a-4733cbfa1149@itsea.osaip.net:443?type=grpc&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=violet&security=tls&fp=chrome&insecure=0&sni=#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%5BBL%5D
-vless://59822a4b-09a6-4f65-956d-36919931123c@itsea.osaip.net:443?type=grpc&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=violet&security=tls&fp=chrome&insecure=0&sni=#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%5BBL%5D
-vless://62fc8a0f-10c1-420c-bc32-bf5db985aa43@itsea.osaip.net:443?type=grpc&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=violet&security=tls&fp=chrome&insecure=0&sni=#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%5BBL%5D
-vless://63a87aba-27cc-4054-8bf2-8e91ef5160aa@itsea.osaip.net:443?type=grpc&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=violet&security=tls&fp=chrome&insecure=0&sni=#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%5BBL%5D
-vless://a8c210be-a3d7-4847-b3ee-529948da0d03@itsea.osaip.net:443?type=grpc&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=violet&security=tls&fp=chrome&insecure=0&sni=#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%5BBL%5D
-vless://63499873-e7bb-4c2c-a22c-36b462773aa5@it-bridge.sbrf-cdn342.ru:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru&fp=qq&alpn=http/1.1#%F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Rome%20%7C%20%5BBL%5D
-vless://a5e65913-62fa-4fd3-b177-0f1664de3cde@fin136.alexanderoff.ru:3008?type=tcp&security=reality&encryption=none&fp=chrome&pbk=_tBiRkButwPxxa2HHuNufy0Tyr_0SViQZReJT75JVTI&sid=d49d578f280fd83a&sni=www.apple.com#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D
-vless://0d0a5a50-e18e-496d-8b33-517222872af0@72.56.236.2:9878?type=tcp&security=reality&flow=xtls-rprx-vision&sni=www.apple.com&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4&fp=chrome&bx=/#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://8395c53c-6e9d-40d9-8d98-bd7383a2ed15@77.110.122.16:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=A6NhgVnNXJX6P95XZEGIMQfcXYQjX7nC18GBF4WhJR4&sid=f6ee&sni=google.com&spx=/#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+vless://d0e1c040-eee0-4225-8027-08b7e77f94f5@ficdn6.melodramaonline.net:443?type=tcp&security=tls&sni=ficdn6.melodramaonline.net&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://903e7951-8033-4213-a73e-85f315f6fc6b@germany-13.ptu.ink:443?security=reality&sni=www.microsoft.com&fp=random&pbk=tmlWERQJTOyfaStRK5uJhA_pVN75gO8OtXxtOItWwHU&type=tcp&flow=xtls-rprx-vision&sid=d62c9748f3fd6743#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://d0e1c040-eee0-4225-8027-08b7e77f94f5@secdn15.melodramaonline.net:443?type=tcp&security=tls&sni=secdn15.melodramaonline.net#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
 vless://bb7d8763-4afa-465f-b066-35786781ced2@216.236.26.19:43229?&security=reality&flow=xtls-rprx-vision&pbk=JzUmS6a7nFt54YhvIe-KE31-W8WWJxcgQJt_q_-HbSQ&sid=e0a48d60&fp=chrome&sni=apple.com&type=tcp&headerType=none&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://cb34f880-1953-4646-98de-d469eb6f3f9f@santa-clara-01.ptu.ink:443?security=reality&sni=www.microsoft.com&fp=random&pbk=f72aJSj4_FX6dCFaznLbhcfntnopk07DW3BHTl8LjiY&type=tcp&flow=xtls-rprx-vision&sid=b418cdfe9032b5dd#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Santa%20Clara%20%7C%20%5BBL%5D
-vless://26524cce-d514-4014-a426-365fb266a14d@140.235.36.50:443?encryption=none&security=tls&sni=urfbqo42.danfeng.gv.uy&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=urfbqo42.danfeng.gv.uy&path=%2Fdanfeng%3Fed%3D2560#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://26524cce-d514-4014-a426-365fb266a14d@142.171.168.143:30001?encryption=none&security=tls&sni=urfbqo42.danfeng.gv.uy&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=urfbqo42.danfeng.gv.uy&path=%2Fdanfeng%3Fed%3D2560#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://26524cce-d514-4014-a426-365fb266a14d@207.90.239.118:443?encryption=none&security=tls&sni=urfbqo42.danfeng.gv.uy&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=urfbqo42.danfeng.gv.uy&path=%2Fdanfeng%3Fed%3D2560#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@188.215.31.56:443?&security=tls&fp=random&alpn=http/1.1&sni=snippet.fgfw.de5.net&type=ws&headerType=none&host=snippet.fgfw.de5.net&path=%2Fdanfeng#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@211.194.210.183:30047?security=tls&type=ws&path=%2Fdanfeng&host=snippet.danfeng.loc.cc&sni=snippet.danfeng.loc.cc&fp=chrome#%F0%9F%8C%90%20Anycast-IP%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
