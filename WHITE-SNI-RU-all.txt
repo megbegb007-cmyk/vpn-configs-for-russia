@@ -1,17 +1,14 @@
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # profile-update-interval: 5
-# Date/Time: 2026-04-01 / 13:28 (Moscow)
-# Количество: 11
+# Date/Time: 2026-04-01 / 14:43 (Moscow)
+# Количество: 8
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
-vless://5c14a114-224a-4671-a57c-bdb9e2a8cff5@cdn33.api-rutube.ru:2096/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ozon.ru&security=reality&pbk=IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg&sid=#%F0%9F%87%AB%F0%9F%87%B7%20France%20%5BSNI-RU%5D%20ozon.ru
 vless://5c14a114-224a-4671-a57c-bdb9e2a8cff5@cdn33.api-rutube.ru:27017/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ozon.ru&security=reality&pbk=IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg&sid=#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%5BSNI-RU%5D%20ozon.ru
+vless://059b3f6b-a514-0065-b404-d6245428c13a@31.56.117.74:40443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eh.vk.com&fp=qq&security=reality&pbk=40KZaFD_NEWB2DRGL7bRXq7Mp4ORtINFL2F6dB89Jj8&sid=8f6461edf59f77c8&packetEncoding=xudp#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%20%5BSNI-RU%5D%20eh.vk.com
 vless://5c14a114-224a-4671-a57c-bdb9e2a8cff5@cdn20.api-rutube.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=max.ru&security=reality&pbk=_4cv7OXJFuVt8PGPNwk8isFFgrRR5tKojjpLWGTN8RI&sid=#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5BSNI-RU%5D%20max.ru
-vless://5c1aa0fb-a26c-4649-bc1d-1da3ab14a222@82.22.40.58:8443?security=reality&encryption=none&pbk=98GUVpWw96tdeGtjIOHXmkklpeA72qQQJoxxyfJ1yTo&headerType=none&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=c0ffee00#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5BSNI-RU%5D%20ya.ru
+vless://c220f447-badb-4120-aa3c-8c10f0a6dcb0@es3.odavpn.online:55607/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ya.ru&fp=chrome&security=reality&pbk=SYwb52VR70d1QPMxZymKroCuXnL69YalD5yr0J1yinQ&sid=aabbccdd#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%5BSNI-RU%5D%20ya.ru
 vless://f7983d2c-c25d-42dd-b6e5-4eccac48eee7@max3r.skystreamgame.com:8080?security=reality&type=xhttp&headerType=&path=%2F&host=&flow=&mode=auto&sni=ozon.ru&fp=&pbk=XBePIY00JetBf0pbmcx-Dvu8XsZ-l079GiHf93HhS0Y&sid=6d6f13013d3e1d0c#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5BSNI-RU%5D%20ozon.ru
+vless://5c14a114-224a-4671-a57c-bdb9e2a8cff5@cdn33.api-rutube.ru:2053/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ozon.ru&security=reality&pbk=IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg&sid=#%F0%9F%87%A6%F0%9F%87%AA%20United%20Arab%20Emirates%20%5BSNI-RU%5D%20ozon.ru
 vless://5c14a114-224a-4671-a57c-bdb9e2a8cff5@cdn33.api-rutube.ru:9200/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ozon.ru&security=reality&pbk=IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg&sid=#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%5BSNI-RU%5D%20ozon.ru
-vless://1546f279-2acc-40f5-9d1f-0e94d54db834@85.239.58.48:48444?security=reality&encryption=none&pbk=FApUbcJurXfV5Y3PG2xRycl1R7y0CxwmUU7FRgUpzG0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=eh.vk.com&sid=1a2b3c4d#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5BSNI-RU%5D%20eh.vk.com
-hysteria2://123456789StrongPass@144.31.224.14:443?insecure=1&sni=eh.vk.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20eh.vk.com
-hysteria2://123456789StrongPass@144.31.224.14:443?insecure=1&sni=eh.vk.com&type=tcp&upmbps=10&downmbps=50#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20eh.vk.com
 hysteria2://123456789StrongPass@144.31.224.14:443?security=tls&insecure=1&sni=eh.vk.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20eh.vk.com
-hysteria2://123456789StrongPass@144.31.224.14:443?sni=eh.vk.com&insecure=1&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20eh.vk.com
